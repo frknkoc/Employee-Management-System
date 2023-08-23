@@ -5,6 +5,7 @@ public class Main {
 
         Academician number1 = new Academician("Ali Koç", "1234567890", "Ankara", "Math", "Prof.");
         System.out.println(number1.getTitle());
+        number1.logIn();
         number1.giveLesson();
 
         Officer o1 = new Officer("Fatih", "1212121212", "Yenikapı", "student affairs", "09.00 - 18.00");

@@ -27,4 +27,9 @@ public class Academician extends Employee{
     public void giveLesson(){
         System.out.println(this.title + " " + this.getFullName() + " üniversitede ders verdi.");
     }
+
+    @Override
+    public void logIn(){
+        System.out.println(this.getTitle() + " " + this.getFullName() + " " + this.getDepartment() + " " + this.getAdress());
+    }
 }
